@@ -1,2 +1,2 @@
 # ZScript
-Simple script language
+Simple script language (for learning propose)
