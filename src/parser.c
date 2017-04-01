@@ -13,10 +13,7 @@ void removeSpaces(char *str)
         {
             uint8_t j;
             for(j = 0; *(str + j + i) != '\0'; j++)
-            {
                 *(str + j) = *(str + j + i);
-                printf("%c\n", *(str + j));
-            }
             *(str + j) = '\0';
         }
 
