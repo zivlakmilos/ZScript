@@ -5,6 +5,7 @@ include_directories(include/)
 
 set(SOURCES
     src/parser.c
+    src/list.c
 )
 
 add_executable(${PROJECT_NAME} src/main.c ${SOURCES})
